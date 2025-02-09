@@ -9,7 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
      "xstart": "node server.js",
-     "start": "nuxt start"
+     "start": "nuxt start",
+     "generate": "nuxt generate",
+     "heroku-postbuild": "npm run build && npm run generate"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
